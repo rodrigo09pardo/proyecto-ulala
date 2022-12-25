@@ -1,0 +1,327 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+div.contenedor {
+    width:100%;
+    max-width:100%;
+}
+/*titulo*/
+header.titulo {
+    color: coral;
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 5px;
+    font-family:cursive;
+   
+}
+
+    header.titulo h1.titulo {
+        font-size: 250%;     
+    
+
+    }
+
+    header.titulo p.subTitulo {
+        font-size: 150%; 
+        font-style: bold;
+    }
+    body{
+        background: url(imagenes/40.jpg);
+        background-size:auto;
+
+    }
+div.imageUlala img.imgUlala {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-right: 15%;
+}
+
+div.imageUlala {
+    width: 90%;
+    margin: 10px auto;
+    padding: 2%;
+    font-family:Helvetica;
+}
+
+    div.imageUlala h1.titulo {
+        margin-bottom: 20px;
+        font-family: arial;
+    }
+/*menu*/
+div.menu {
+    font-family: 'Franklin Gothic Medium';
+    font-size:xx-large;
+    padding: 2%;
+    text-align:center;
+}
+
+    div.menu li > a {
+        background-color: #ca6060;
+        color: white;
+        
+    }
+
+        div.menu li > a:hover {
+            color: rgb(255, 0, 0);
+            background-color: #eaeaea;
+            
+        }
+
+    div.menu > li {
+        float:left;
+        text-align:center;
+    
+}
+    /*imagenes*/
+#imagenes {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#subtitulos {
+    display: inline-block;
+}
+img.img1 {
+    width: 210px;
+    height: 225px;
+    float: inherit;
+    padding: 50px;
+   
+}
+
+img.img2 {
+    width: 210px;
+    height: 225px;
+    float: inherit;
+    padding: 50px;
+    
+}
+
+img.img3 {
+    width: 210px;
+    height: 225px;
+    float: inherit;
+    padding: 50px;
+}
+
+img.img4 {
+    width: 210px;
+    height: 225px;
+    float:inherit;
+    padding: 50px;
+    
+}
+
+/*aceites*/
+
+div.imgRomero {
+    width: 90%;
+    margin: 10px auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+
+h1.tituloRomero {
+    color: #ca6060;
+    background-color: transparent;
+    font-weight:900;
+    text-decoration:underline;
+    font-family: Arial;
+}
+
+div.imgRomero img.romero1 {
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+}
+
+div.reset {
+    clear: both;
+}
+
+div.imgRomero1 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+
+    div.imgRomero1 img.romero1 {
+        float: right;
+        margin-left: 15px;
+        width: 300px;
+    }
+
+div.imgRomero2 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+
+    div.imgRomero2 img.romero1 {
+        float: left;
+        margin-right: 15px;
+        width: 300px;
+    }
+
+div.imgRomero3 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+
+    div.imgRomero3 img.romero1 {
+        float: right;
+        margin-left: 15px;
+        width: 300px;
+    }
+
+div.imgRomero4 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+
+    div.imgRomero4 img.romero1 {
+        float:left;
+        margin-right: 15px;
+        width: 300px;
+    }
+/*jabones*/
+div.jabon1 {
+    width: 90%;
+    margin: 20px auto;
+    background-color:burlywood;
+    color: black;
+    padding: 15px;
+}
+h1.titulojabon {
+    color: #d81818;
+    background-color: transparent;
+    font-weight:900;
+    text-decoration:underline;
+    font-family: Arial;
+}
+div.jabon1 img.left {
+    float:left;
+    margin-right: 15px;
+    width: 300px;
+}
+div.jabon1 img.right {
+    float:right;
+    margin-left: 15px;
+    width: 300px;
+}
+
+
+
+
+
+
+/*iconos*/
+div.iconos {
+    width: 123%;
+    margin-left: 20%;
+    padding: 30px;
+
+    
+    
+}
+
+    div.iconos img.facebook {
+        width: 200px;
+        padding: 20px;
+        
+        
+        
+        
+    
+    }
+
+    div.iconos img.whatsapp {
+        width: 200px;
+        padding: 20px;
+        
+    }
+
+    div.iconos img.instagran {
+        width: 200px;
+        padding: 20px;
+        
+        
+    }
+
+p.hola {
+    margin: 50px;
+}
+
+
+    footer.piePag {
+    margin-right: 20%;
+    display: flex;
+    justify-content:center;
+    font-style:italic;
+}
+footer.piePag1 {
+    
+    display: flex;
+    justify-content:center;
+    font-style:italic;
+}
+div.contacto {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    font-family:Arial;
+}
+
+    div.contacto p.sub1 {
+        width: 200px;
+        color: royalblue;
+        font-style: oblique;
+    }
+
+div.text {
+    margin-left: 31%;
+    margin-right: 10%;
+    margin-top: 1%;
+    line-height: 300%;
+    
+}
+
+div.textEucalipto {
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 1%;
+    line-height: 300%;
+}
+
+div.textRecino {
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 1%;
+    line-height: 300%;
+}
+div.subtituloj{
+    font-size:40px;
+    margin-left: 10%;
+    font-family:'Courier New';
+    font-weight: bold;
+
+}
+@media screen and (max-widht:400px){
+    .contenedor{
+        width:100%;
+    }
+}
