@@ -74,41 +74,6 @@ div.imageUlala {
     color: #000;
     background-color: #eaeaea;
 }
-#menu {
-    font-family: 'Franklin Gothic Medium';
-    list-style: none;
-    height: 66px;
-
-    text-align: center;
-}
-
-#menu li > a {
-    background-color: #ca6060;
-    color: white;
-    text-decoration-color: none;
-    padding: 5%;
-    display: inline-block;
-    min-width: 200px;
-}
-
-    #menu li > a:hover {
-        color: #000;
-        background-color: #eaeaea;
-    }
-
-#menu > li {
-    float: left;
-    text-align: center;
-}
-
-#menu li > ul {
-    display: none
-}
-
-#menu > li:hover > ul {
-    display: inline;
-}
-
     /*imagenes*/
 #imagenes {
     display: inline-block;
