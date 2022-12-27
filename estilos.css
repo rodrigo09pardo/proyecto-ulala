@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-div.contenedor {
-    width:100%;
-    max-width:100%;
-}
 /*titulo*/
 header.titulo {
     color: coral;
@@ -74,14 +70,18 @@ div.imageUlala {
     color: #000;
     background-color: #eaeaea;
 }
+.menu{
+    cursor: crosshair;
+}
     /*imagenes*/
 #imagenes {
     display: inline-block;
     vertical-align: top;
 }
 
-#subtitulos {
-    display: inline-block;
+.subtitulos {
+    width: 0%;
+    height: 0%;
 }
 img.img1 {
     width: 210px;
@@ -121,7 +121,7 @@ div.imgRomero {
     margin: 10px auto;
     background-color: aquamarine;
     color: black;
-    padding: 15px;
+    padding: 0%;
 }
 
 h1.tituloRomero {
